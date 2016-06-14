@@ -1,0 +1,15 @@
+<h4>{{vm.head}}</h4>
+
+<a ui-sref="dashboard"> Back to Dashboard</a>
+
+<table cellpadding="5">
+    <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+    </tr>
+    <tr ng-repeat="client in vm.clients">
+        <td>{{client.firstname}}</td>
+        <td>{{client.lastname}}</td>
+        <td> <a ui-sref="projects.list">Projects</a>  </td>
+    </tr>
+</table>

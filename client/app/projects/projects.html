@@ -1,0 +1,14 @@
+<h4>{{vm.head}}</h4>
+
+<a ui-sref="dashboard"> Back to Dashboard</a>
+
+<table cellpadding="5">
+    <tr>
+        <th>Title</th>
+        <th>Start Date</th>
+    </tr>
+    <tr ng-repeat="project in vm.projects">
+        <td>{{project.title}}</td>
+        <td>{{project.started_on}}</td>
+    </tr>
+</table>

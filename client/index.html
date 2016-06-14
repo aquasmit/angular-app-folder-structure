@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <title>PM App</title>
+</head>
+<body>
+
+<div ui-view></div>
+
+<script src="bc/angular/angular.min.js"></script>
+<script src="bc/angular-ui-router/release/angular-ui-router.min.js"></script>
+
+<script src="app/app.module.js"></script>
+<script src="app/app.routes.js"></script>
+
+<script src="app/core/core.module.js"></script>
+<script src="app/widgets/widgets.module.js"></script>
+
+<script src="app/dashboard/dashboard.module.js"></script>
+<script src="app/dashboard/dashboard.routes.js"></script>
+<script src="app/dashboard/dashboard.js"></script>
+
+<script src="app/clients/clients.module.js"></script>
+<script src="app/clients/clients.routes.js"></script>
+<script src="app/clients/clients.js"></script>
+
+<script src="app/projects/projects.module.js"></script>
+<script src="app/projects/projects.routes.js"></script>
+<script src="app/projects/projects.js"></script>
+
+<script src="app/services/datacontext.js"></script>
+<script src="app/services/repositories/repository.client.js"></script>
+<script src="app/services/repositories/repository.project.js"></script>
+
+</body>
+</html>

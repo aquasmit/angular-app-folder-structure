@@ -1,0 +1,23 @@
+{
+  "name": "client",
+  "authors": [
+    "Smit <aqua.smit@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "bc",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#^1.5.6",
+    "angular-ui-router": "^0.3.1"
+  }
+}
